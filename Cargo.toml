@@ -1,0 +1,12 @@
+[package]
+name = "err"
+version = "0.1.0"
+edition = "2021"
+description = "Layered errors with context, source locations, and typed attachments"
+license = "MIT"
+readme = "README.md"
+keywords = ["error", "errors", "context", "attachments"]
+categories = ["rust-patterns"]
+
+[lib]
+path = "mod.rs"
